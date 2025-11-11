@@ -121,7 +121,49 @@ nav a:hover {
   color: #ccc;
   font-size: 1.2rem;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> login
+/* Fundal implicit */
+body {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s, color 0.4s;
+  font-family: Arial, sans-serif;
+}
+
+/* Mod luminos */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a,
+#theme-toggle {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover */
+nav ul li a:hover,
+#theme-toggle:hover {
+  color: #00aaff;
+}
+
+/* Când e mod luminos */
+body.light-mode nav {
+  background-color: #eee;
+}
+
+body.light-mode nav ul li a,
+body.light-mode #theme-toggle {
+  color: black;
+}
+
