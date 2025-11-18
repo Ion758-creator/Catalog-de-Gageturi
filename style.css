@@ -1,3 +1,4 @@
+
 /* ===== Reset ===== */
 * {
   margin: 0;
@@ -121,7 +122,105 @@ nav a:hover {
   color: #ccc;
   font-size: 1.2rem;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> login
+/* Fundal implicit */
+body {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s, color 0.4s;
+  font-family: Arial, sans-serif;
+}
+
+/* Mod luminos */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a,
+#theme-toggle {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover */
+nav ul li a:hover,
+#theme-toggle:hover {
+  color: #00aaff;
+}
+
+/* Când e mod luminos */
+body.light-mode nav {
+  background-color: #eee;
+}
+
+body.light-mode nav ul li a,
+body.light-mode #theme-toggle {
+  color: black;
+}
+
+.products {
+  padding: 40px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product-card {
+  background: #ffffff20;
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  transition: 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #0088ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2px solid #3b82f6;
+  border-radius: 25px;
+  color: #3b82f6;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buy-button:hover {
+  background: #3b82f6;
+  color: white;
+}
