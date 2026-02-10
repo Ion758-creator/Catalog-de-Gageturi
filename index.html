@@ -6,6 +6,30 @@
   <title>Modern Navbar</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="downloads/icon.png">
+
+    <meta charset="UTF-8">
+    <title>Random Pictures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .gallery img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(255, 4, 4);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+    </style>
+
+    
 </head>
 <body>
 
@@ -105,31 +129,59 @@
       </div>
 
       <div class="product-card" data-category="telefon">
-        <img src="imagini/S22.png" alt="Produs 8">
+        <img src="imagini/S22.png" alt="Produs 9">
         <h3>Samsung Galaxy S22</h3>
         <p>Samsung Galaxy S22 este un smartphone performant, cu design premium, cameră excelentă și procesor rapid, potrivit pentru utilizare zilnică și fotografie de calitate.</p>
         <a href="https://darwin.md/samsung-galaxy-s22-8-gb-128-gb-black.html" target="_blank" class="buy-button">Vezi site</a>
       </div>
 
       <div class="product-card" data-category="laptop">
-        <img src="imagini/Asus  tuf.jpeg" alt="Produs 8">
+        <img src="imagini/Asus  tuf.jpeg" alt="Produs 10">
         <h3>Laptop Asus TUF Gaming A18</h3>
         <p>Asus TUF Gaming A18 este o alegere foarte bună dacă vrei un laptop de gaming puternic, cu ecran foarte mare, memorie rapidă și potențial de upgrade.</p>
         <a href="https://darwin.md/laptop-asus-tuf-gaming-a18-fa808up-ryzen-7-260-32-gb-1-tb-geforce-rtx-5070-gray-freedos.html" target="_blank" class="buy-button">Vezi site</a>
       </div>
 
       <div class="product-card" data-category="casti">
-        <img src="imagini/Logiteh.png" alt="Produs 8">
+        <img src="imagini/Logiteh.png" alt="Produs 11">
         <h3>Căști Logitech </h3>
         <p>Logitech G733 Black este o alegere excelentă dacă vrei un headset de gaming wireless, ușor, confortabil și cu autonomie bună.</p>
         <a href="https://darwin.md/g733-logitech-headphones-black.html" target="_blank" class="buy-button">Vezi site</a>
       </div>
 
       <div class="product-card" data-category="ceas">
-        <img src="imagini/Samsung ceas.png" alt="Produs 8">
+        <img src="imagini/Samsung ceas.png" alt="Produs 12">
         <h3>Ceas inteligent Garmin Forerunner</h3>
         <p>Este un ceas sport-inteligent ușor (37 g), ideal pentru alergare: are GPS, monitorizare a ritmului cardiac, planuri de antrenament adaptative și autonomie de până la 2 săptămâni.</p>
         <a href="https://darwin.md/ceas-inteligent-garmin-forerunner-55-010-02562-10-black.html" target="_blank" class="buy-button">Vezi site</a>
+      </div>
+
+       <div class="product-card" data-category="telefon">
+        <img src="imagini/oytos3rdfn_1757448483557-preview-webp.webp" alt="Produs 13">
+        <h3>Apple iPhone 17 Pro Max</h3>
+        <p>Iphone este un smartphone premium Apple, foarte performant, cu ecran mare, cameră foto avansată și autonomie ridicată, destinat utilizatorilor care vor tehnologie de top.</p>
+        <a href="https://darwin.md/smartphone-apple-iphone-17-pro-max-8-gb-256-gb-single-sim-5g-titanium-dark-blue.html" target="_blank" class="buy-button">Vezi site</a>
+      </div>
+
+       <div class="product-card" data-category="laptop">
+        <img src="imagini/mac.webp" alt="Produs 14">
+        <h3> Apple MacBook Pro 16 </h3>
+        <p>autonomie mare și performanță ridicată pentru editare video, programare și design</p>
+        <a href="https://darwin.md/laptop-apple-macbook-pro-16-2021-z14v0008d-rus-space-gray.html" target="_blank" class="buy-button">Vezi site</a>
+      </div>
+
+       <div class="product-card" data-category="casti">
+        <img src="imagini/jbl.webp" alt="Produs 15">
+        <h3>Căști JBL</h3>
+        <p>Căști wireless over-ear cu Bluetooth, sunet puternic JBL, anulare a zgomotului și autonomie mare</p>
+        <a href="https://darwin.md/casti-jbl-live660bt-white.html" target="_blank" class="buy-button">Vezi site</a>
+      </div>
+
+       <div class="product-card" data-category="ceas">
+        <img src="imagini/ceasu.webp" alt="Produs 16">
+        <h3>Ceas inteligent Amazfit</h3>
+        <p>Ceas inteligent cu ecran AMOLED, monitorizare sănătate (ritm cardiac, somn, SpO₂)</p>
+        <a href="https://darwin.md/amazfit-gtr-2-xiaomi-classic-stainless-steel-obsidian-black.html" target="_blank" class="buy-button">Vezi site</a>
       </div>
 
     </div>
@@ -139,6 +191,10 @@
   <script src="theme.js"></script>
   <script src="search.js"></script>
   <script src="filter.js"></script>
+<h2>3 Random Pictures</h2>
+<div class="gallery" id="gallery"></div>
 
+<!-- Load the external JavaScript file -->
+<script src="random.js"></script>
 </body>
 </html>
