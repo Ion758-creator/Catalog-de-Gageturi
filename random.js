@@ -12,17 +12,17 @@ async function loadAndDisplayImages() {
     } catch (error) {
         console.error('Error loading images:', error);
         const fallbackImages = [
-            { "url": "https://picsum.photos/seed/picsum/200/300" },
-            { "url": "https://picsum.photos/200/300" },
-            { "url": "https://picsum.photos/id/1035/400/300" },
-            { "url": "https://picsum.photos/id/1045/400/300" },
-            { "url": "https://picsum.photos/id/1055/400/300" },
-            { "url": "https://picsum.photos/id/1065/400/300" }
-        ];
+             { url: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" }, // smartphone
+  { url: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8" }, // laptop
+  { url: "https://images.unsplash.com/photo-1518443895914-6b3c0cfdac5b" }, // smartwatch
+  { url: "https://images.unsplash.com/photo-1512499617640-c2f999018b72" }, // headphones
+  { url: "https://images.unsplash.com/photo-1498049794561-7780e7231661" }, // tech setup
+  { url: "https://images.unsplash.com/photo-1519389950473-47ba0277781c" }  // gadgets workspace
+];
         displayRandomImages(fallbackImages);
     }
 }
-
+    
 function displayRandomImages(imagesArray) {
     const shuffled = [...imagesArray];
     for (let i = shuffled.length - 1; i > 0; i--) {
