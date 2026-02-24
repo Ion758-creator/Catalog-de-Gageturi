@@ -12,12 +12,12 @@ async function loadAndDisplayImages() {
     } catch (error) {
         console.error('Error loading images:', error);
         const fallbackImages = [
-             { url: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" }, // smartphone
-  { url: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8" }, // laptop
-  { url: "https://images.unsplash.com/photo-1518443895914-6b3c0cfdac5b" }, // smartwatch
-  { url: "https://images.unsplash.com/photo-1512499617640-c2f999018b72" }, // headphones
-  { url: "https://images.unsplash.com/photo-1498049794561-7780e7231661" }, // tech setup
-  { url: "https://images.unsplash.com/photo-1519389950473-47ba0277781c" }  // gadgets workspace
+    {  url: "imagini/img 1.jpg"  }, 
+    { url: "imagini/img 2.jpg" },
+  { url: "imagini/img 3.jpg" }, 
+  { url: "imagini/img 4.jpg" },
+  { url: "imagini/img 5.jpg" },
+  { url: "imagini/img 6.jpg"}
 ];
         displayRandomImages(fallbackImages);
     }

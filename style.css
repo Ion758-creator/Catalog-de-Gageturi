@@ -224,3 +224,18 @@ body.light-mode #theme-toggle {
   background: #3b82f6;
   color: white;
 }
+
+#cautareGadget {
+    width: 400px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background: #1e1e1e;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+#cautareGadget::placeholder {
+    color: #aaa;
+}

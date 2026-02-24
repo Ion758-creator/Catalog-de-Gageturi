@@ -16,3 +16,15 @@ searchBar.addEventListener("keyup", function () {
     }
   });
 });
+
+function cautaGadget() {
+    let numeGadget = document.getElementById("cautareGadget").value;
+    let rezultat = document.getElementById("rezultatCautare");
+
+    if (numeGadget != "") {
+        rezultat.innerText =
+            "Gadgetul care l-ai ales este cel mai bun: " + numeGadget;
+    } else {
+        rezultat.innerText = "";
+    }
+}
